@@ -1,0 +1,348 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body{font-family: Arial;}
+
+
+.cont{
+	width: 100%;
+	position: fixed;
+	margin: 0 auto;
+	background-color: white;
+}
+.container {
+	 max-width:960px;
+	 margin: 0 auto;
+}
+.content{
+
+margin-top: 30px;
+margin-bottom: 30px;
+display: flex;
+}
+.logo {
+
+}
+.menu {
+	margin-left: 25%;
+
+}
+
+.menu_link {
+color: #212121;
+font-family: "Open Sans - Semibold";
+font-size: 20px;
+text-align: center;
+letter-spacing: 1px;
+margin-right: 15px;
+}
+
+.background_two {
+background-image: url('../img/pexels-photo-356056.png');
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: 100% auto;
+height: auto;
+}
+.background{
+height: auto;
+background-color: black;
+}
+
+.title {
+padding-top: 15%;
+color: #ffffff;
+font-family: "Open Sans - Semibold";
+font-size: 60px;
+letter-spacing: 3px;
+text-align: center;
+}
+
+.subtitle {
+padding-top: 25px;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 22px;
+font-style: normal;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1.1px;
+}
+
+.buttons {
+	margin-top: 10%;
+	display: flex;
+	justify-content:center;
+}
+
+.button_first button{
+width: 220px;
+height: 70px;
+border: 3px solid #f8f8f8;
+opacity: 0.5;
+margin-right: 10px;
+}
+
+.button_first {
+color: #ffffff;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+}
+
+.button_two button{
+width: 220px;
+height: 70px;
+background-color: #00897b;
+color: #ffffff;
+margin-left: 10px;
+}
+
+.button_two{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+}
+.icon {
+	margin-top: 10%;
+	text-align: center;
+	padding-bottom: 10%;
+}
+
+.title_h3 {
+	padding-top: 15%;
+
+}
+.title_title {
+color: #212121;
+font-family: "Open Sans";
+font-size: 30px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1.5px;
+margin-bottom: 36px;
+}
+.title_subtitle {
+color: #212121;
+font-family: "Open Sans";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.75px;
+margin: 0 auto;
+margin-bottom: 100px;
+width: 620px;
+}
+.columns {
+	display: flex;
+	justify-content:space-between;
+}
+.column {
+	display: block;
+	justify-content: center;
+	margin: 0px 50px 100px 50px;
+}
+.column_icon {
+	margin-bottom: 40px;
+	text-align: center;
+}
+.column_title {
+color: #212121;
+font-family: "Open Sans - Semibold";
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+margin-bottom: 26px;
+}
+.column_subtitle {
+color: #212121;
+font-family: "Open Sans";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.75px;
+}
+
+
+
+
+
+
+
+
+
+.block{
+	background-color: #e4fdf9;
+}
+
+.cubs {
+	display: flex;
+	justify-content:space-around;
+}
+.cube {
+	padding: 30px;
+	background-color: #ffffff;
+	display: block;
+	justify-content: center;
+	margin: 0px 15px 0px 15px;
+	transition: all.8s;
+}
+
+.cubs_two .cubs {
+	padding: 30px 0px 100px 0px;
+}
+
+.column_icon {}
+.cube_title {
+	color: #212121;
+font-family: "Open Sans - Semibold";
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+margin-bottom: 26px;
+}
+.cube_subtitle {
+	color: #212121;
+font-family: "Open Sans";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.75px;
+margin-bottom: 20px;
+}
+.cube_button{
+	text-align: center;
+}
+.cube_button button {
+font-family: "Open Sans - Semibold";
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+background-color: #ffffff;
+text-align: center;
+width: 150px;
+height: 55px;
+border: 2px solid #212121;
+}
+.buttons{
+	margin-bottom: 100px;
+}
+
+.cube:hover .cube_button button{
+background-color:#00897b;	
+color: #ffffff;
+}
+
+.cube:hover{
+	background-color: #00897b;
+}
+.cube:hover .cube_title {
+	color: #ffffff;
+}
+.cube:hover .cube_subtitle {
+	color: #ffffff;
+}
+
+.buttons .cube_button {
+	margin: 0px 7px 0px 7px;
+}
+.buttons .cube_button button {
+	padding: 5px;
+	border-color: #00897b;
+	transition: all.8s;
+}
+.cube_button button:hover{
+	background-color: #00897b;
+}
+
+.cube_button button:hover p{
+	color: #ffffff;
+}
+
+
+
+
+.grids {
+	display: flex;
+	justify-content:space-around;
+}
+.grid {
+	padding: 20px 0px 0px 0px;
+	display: flex;
+}
+.grid_grid_1,.grid_grid_2, .grid_grid_3, .grid_grid_4, .grid_grid_5, .grid_grid_6{
+	background-blend-mode: multiply;
+	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  	background-size: 300px 300px;
+  	width: 300px;
+  	height: 300px;
+}
+.grid_grid_1{
+	background-image: url('../img/watch.jpg');
+}
+.grid_grid_1:hover p, .grid_grid_2:hover p, .grid_grid_3:hover p, .grid_grid_4:hover p, .grid_grid_5:hover p, .grid_grid_6:hover p{
+	opacity: 100%;
+}
+.grid_grid_1:hover, .grid_grid_2:hover, .grid_grid_3:hover, .grid_grid_4:hover, .grid_grid_5:hover, .grid_grid_6:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.grid_grid_2 {
+	background-image: url('../img/Layer_2.png');
+}
+.grid_grid_3 {	
+	background-image: url('../img/Layer_3.png');
+}
+.grid_grid_4 {	
+	background-image: url('../img/Layer_4.png');
+}
+.grid_grid_5 {
+	background-image: url('../img/Layer_5.png');
+}
+.grid_grid_6 {
+	background-image: url('../img/Layer_6.png');
+}
+.grid_grid_1 p,.grid_grid_2 p, .grid_grid_3 p, .grid_grid_4 p, .grid_grid_5 p, .grid_grid_6 p{
+transition: all.8s;
+opacity: 0%;
+margin-top: 142.5px;
+margin-left: 87.5px;
+width: 125px;
+height: 15px;
+color: #ffffff;
+font-family: "Open Sans - Semibold";
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+}

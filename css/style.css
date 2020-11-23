@@ -23,11 +23,12 @@ min-width: 960px;}
 	position: fixed;
 	margin: 0 auto;
 	background-color: white;
+	z-index: 5;
 }
 .container {
-	max-width:1000px;
+	max-width:1080px;
 	margin: 0px auto;
-	padding: 0px 10px;
+	padding: 0px 15px;
 }
 .content{
 
@@ -37,8 +38,9 @@ display: flex;
 }
 .logo {
 width: 35%;
+
 }
-.menu {
+.content .menu {
 }
 
 .menu_link {
@@ -89,15 +91,15 @@ letter-spacing: 1.1px;
 }
 
 .button_first button{
+background: rgba(0, 0, 0, 0);
 width: 220px;
 height: 70px;
-border: 3px solid #f8f8f8;
-opacity: 0.5;
+border: 3px solid #ffffff;
 margin-right: 10px;
+color: #ffffff;
 }
 
-.button_first {
-color: #ffffff;
+.button_first{
 font-family: Roboto;
 font-size: 20px;
 font-weight: 700;
@@ -345,4 +347,308 @@ font-weight: 400;
 line-height: 22px;
 text-align: center;
 letter-spacing: 1px;
+}
+
+
+
+
+
+.fon{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.boxes {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 125px;
+}
+.big_box {
+	border: 1px solid #212121;
+	text-align: center;
+
+}
+.big_box:hover{
+	box-shadow: 0 3px 25px rgba(0, 0, 0, 0.35);
+}
+.box_box_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box_box{
+	position: absolute;
+	z-index: 2;
+}
+
+.box_title {
+margin: 15px;
+width: 116px;
+height: 19px;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 25px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1.25px;
+}
+.box_subtitle{
+
+	display: flex;
+	margin-top: 30px;
+}
+
+.box {
+background-color: #ffffff;
+position: relative;
+overflow: hidden;
+filter: drop-shadow(0px 0px 6px rgba(0,0,0,0.5))
+padding-top: 25px;
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: center;
+width: 300px;
+height: 169px;
+z-index: 1;
+}
+
+.box::before {
+  content: '.box_title';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #3949ab;
+  border-radius: inherit;
+  transform: skewY(-6deg);
+  transform-origin: 0% 100%;
+  z-index: 2;
+}
+
+
+
+.box_subtitle p:first-child{
+width: 56px;
+height: 36px;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 50px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 2.5px;
+margin-right: 15px;
+}
+.box_subtitle p:last-child{
+width: 89px;
+height: 17px;
+color: #ffffff;
+font-family: "Open Sans";
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.85px;
+margin-left: 15px;
+}
+.form{
+	background-color: #ffffff;
+}
+.form dl{
+padding: 50px 70px 20px 70px;
+color: #212121;
+font-family: "Open Sans";
+font-size: 17px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 22px;
+text-align: center;
+/* Text style for "30 Free Tr" */
+font-style: normal;
+letter-spacing: 0.85px;
+line-height: normal;
+}
+
+dd{
+margin-top: 10px;
+	border-bottom: 2px solid #bfbfbf;
+}
+
+.form .buttons {
+margin-bottom: 0px;
+padding-bottom: 40px;
+}
+
+.cube_button {}
+
+
+.team {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 100px;
+}
+.men {}
+.photo img{
+width: 300px;
+}
+
+.name{
+	text-align: center;
+
+}
+.name p:first-child{
+margin-top: 30px;
+color: #212121;
+font-family: "Open Sans - Semibold";
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 1px;
+}
+.name p:last-child{
+color: #212121;
+font-family: "Open Sans";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.75px;
+margin-bottom: 30px;
+}
+.icons {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.icons div{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+border-radius: 10px;
+background-color: #f0f1f1;
+}
+.icons div img{
+}
+
+.blog {
+	background-color: #e4fdf9;
+	padding-bottom: 30px;
+}
+.blog_1{
+	display: flex;
+	justify-content: center;
+
+}
+.blog_2{
+	display: flex;
+	justify-content: center;
+	
+}
+.image img{
+width: 470px;
+}
+.blog_1 .blog_blog{
+	padding-left: 30px;
+}
+.blog_2 .blog_blog{
+	padding-right: 30px;
+}
+.blog_blog {
+	width: 500px;
+}
+.blog_title {
+margin-top: 50px;
+color: #212121;
+font-family: "Open Sans - Semibold";
+font-size: 25px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+letter-spacing: 1.25px;
+}
+.date {
+	display: flex;
+	margin-top: 30px;
+}
+.date_1 {
+	display: flex;
+}
+.date_icon {
+	margin: 0px 10px 0px 0px;
+}
+.date_title {
+color: #212121;
+font-family: "Open Sans - Semibold";
+font-size: 17px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+letter-spacing: 0.85px;
+}
+.blog_text {
+color: #212121;
+font-family: "Open Sans";
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;/
+letter-spacing: 0.75px;
+	margin-top: 30px;
+}
+
+
+.contact {background-image: url('../img/main_bg.png');}
+.contact .container .title_h3 .title_title {
+	color: #ffffff;
+}
+.contact .container .title_h3 .title_subtitle {
+	color: #ffffff;
+}
+.contact_contact{
+	display: flex;
+	justify-content: space-around;
+}
+.contact_1{
+	text-align: center;
+}
+.contact_icon{
+display: flex;
+justify-content: center;
+}
+
+.contact_icon div{
+background-color: #3949ab;
+border-radius: 100px;
+width: 105px;
+height: 105px;
+background-color: #3949ab;
+text-align: center;
+}
+.contact_icon img{
+margin-top: 22px;
+}
+
+#co img{
+margin-top: 32px;
+}
+.contact_text {
+margin-top: 20px;
+margin-bottom: 50px;
+width: 244px;
+height: 48px;
+color: #ffffff;
+font-family: "Open Sans - Semibold";
+font-size: 20px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 28px;
+text-align: center;
+/* Text style for "Nobinagar" */
+font-style: normal;
+letter-spacing: 1px;
+line-height: normal;
 }
